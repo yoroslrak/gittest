@@ -86,7 +86,9 @@ section h1 {
     height: 100%;
 }
 
-
+*{
+    scroll-behavior: smooth;
+}
 .projects {
     color: white;
     background: black;
