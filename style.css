@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Itim';
 }
 
 header {
@@ -9,6 +10,7 @@ header {
     background: url(header_bg.webp);
     background-size: cover;
     display: flex;
+    background-image: image(url(header_bg.webp));
 }
 
 .header_left {
@@ -114,4 +116,8 @@ footer {
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+.scrool {
+    scroll-behavior: smooth;
 }
