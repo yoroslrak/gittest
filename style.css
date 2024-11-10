@@ -123,3 +123,34 @@ footer {
 .scrool {
     scroll-behavior: smooth;
 }
+
+.skills:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.skills {
+    transform: scale(1);
+    transition: 1s;
+}
+
+.projects:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.projects {
+    transform: scale(1);
+    transition: 1s;
+}
+
+
+.contacts:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.contacts {
+    transform: scale(1);
+    transition: 1s;
+}
